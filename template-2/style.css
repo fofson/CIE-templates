@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%; /*2480px*/
+    /* height: auto; 3508px */
+    aspect-ratio: 2480/3508; /* paysage : 3508/2480 */
+    border: 1px solid #888;
+    margin: 50px;
+    overflow: hidden;
+}
+.container header{
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 100%;
+    background-image: url(https://couleur-science.eu/img/83/lignes-electriques.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.container .degrade{
+    height: 250px;
+    width: auto;
+    background: linear-gradient(to right, rgb(255, 166, 0), rgba(255, 166, 0, 0.03));
+    margin: 0px;
+    padding: 10px 100px;
+}
+.container .degrade .title{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 0px;
+}
+.container .degrade .logo-poste{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container .degrade .logo-poste .logo{
+    width: 100px;
+    height: 80px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.container .degrade .logo-poste .logo img{
+    width: 100px;
+    object-fit: cover;
+}
+.container .degrade .logo-poste .poste{
+    padding: 20px 20px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: left;
+}
+.container .degrade .logo-poste .poste table td:first-child{
+    padding: 3px 20px 0px 3px;
+}
+.container .tables{
+    padding: 30px 30px;
+}
+.container .tables button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #888;
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.container .tables .table1{
+    border: 1px solid #888;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+.container .tables .table2{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eee;
+    border-radius: 20px;
+}
+.container .tables .group2{
+    margin: 60% 0px 0px 0px;
+    padding: 0px 50px;
+}
+.container .tables .table1 th,
+.container .tables .table1 td{
+    /* font-family: monospace; */
+    border: 1px solid #888;
+    width: 50%;
+    padding: 8px 15px;
+}
+.container .tables .table2 td{
+    border-right: 2px solid #888;
+    border-bottom: 2px solid #888;
+    padding: 12px 20px;
+    font-weight: 800;
+}
+.container .tables .table2 td:first-child{
+    width: 70%;
+}
+.container .tables .table2 td:last-child{
+    border-right: 0px;
+    width: 22%;
+}
+.container .tables .table2 tr:last-child td{
+    border-bottom: 0px;
+}
+.container .tables .table1 th{
+    background-color: #ccc;
+    text-align: justify;
+    width: max-content;
+}
+.container .tables .table1 td{
+    width: max-content;
+    font-weight: 500;
+}
+.divider{
+    width: 100%;
+    border: 1px solid #888;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}

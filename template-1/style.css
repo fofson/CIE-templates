@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%; /*2480px*/
+    /* height: auto; 3508px */
+    aspect-ratio: 2480/3508; /* paysage : 3508/2480 */
+    border: 1px solid #888;
+    margin: 50px;
+    overflow: hidden;
+}
+.container .tables{
+    padding: 60px 30px;
+}
+.container .tables button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #888;
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.container .tables .table1{
+    border: 1px solid #888;
+    width: 100%;
+    border-collapse: collapse;
+}
+.container .tables .table2{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eee;
+    border-radius: 20px;
+}
+.container .tables .group2{
+    margin: 58% 0px 0px 0px;
+    padding: 0px 50px;
+}
+.container .tables .table1 th,
+.container .tables .table1 td{
+    /* font-family: monospace; */
+    border: 1px solid #888;
+    width: 50%;
+    padding: 8px 15px;
+}
+.container .tables .table2 td{
+    border-right: 2px solid #888;
+    border-bottom: 2px solid #888;
+    padding: 12px 20px;
+    font-weight: 800;
+}
+.container .tables .table2 td:first-child{
+    width: 70%;
+}
+.container .tables .table2 td:last-child{
+    border-right: 0px;
+    width: 22%;
+}
+.container .tables .table2 tr:last-child td{
+    border-bottom: 0px;
+}
+.container .tables .table1 th{
+    background-color: #ccc;
+    text-align: justify;
+    width: max-content;
+}
+.container .tables .table1 td{
+    width: max-content;
+    font-weight: 500;
+}
+.divider{
+    width: 100%;
+    border: 1px solid #888;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}
